@@ -1,4 +1,4 @@
 jeremiahcurrier.com
 ===================
 
-Personal website
+My website
