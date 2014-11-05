@@ -1,0 +1,100 @@
+/*___________________________________________ Color palette start _________________________________________________*/
+
+/* 
+    Cream Brown :   #e7cdb0;
+    Black   :   #242424;
+    Rust Brown  :   #dbb489;
+    Light Purple  :   #ceb7e1;
+*/
+
+/*___________________________________________ Color palette end ____________________________________________________*/
+
+/*___________________________________________ Typography & structure end ___________________________________________*/
+
+html, body, div, p, a, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  }
+  
+body {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  background-color: #e7cdb0;
+  }
+  
+p {
+  text-align: center;
+  font-size: 1.7em;
+  letter-spacing:.05em;
+  line-height: 2em;
+  padding: 25px 0 75px 0;
+  font-family: Courier, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+  }
+  
+a, a:visited {
+  text-decoration: none;
+  color: 242424;
+  border-bottom: 2px solid #242424;
+        padding-bottom: 1px;
+        -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out; /* IE10 is actually unprefixed */
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  }
+
+a:hover {
+  text-decoration: none;
+  border-bottom: none;
+  color: #dbb489;
+  }
+  
+.jobTitle {
+  padding-left: 20px; 
+  padding-bottom: 3.5px; 
+  padding-top: 2px; 
+  border-radius: 6px; 
+  background: #e7cdb0;
+  }
+
+.links {
+  font-size: 0.7em;
+  }
+  
+#image {
+  padding-bottom: 0;
+  }
+  
+/*__________________________________________ Typography & structure end ___________________________________________*/ 
+
+/*___________________________________________ Text selection start___________________________________________________*/
+  
+::-moz-selection {
+  background: #ceb7e1;
+  color: #000;
+  }
+  
+::selection {
+  background: #ceb7e1;
+  color: #000;
+  }
+  
+/*___________________________________________ Text selection end ____________________________________________________*/
+
+/*___________________________________________ Mobile magic start ____________________________________________________*/
+  
+@media(max-width: 350px) {
+  body {
+  margin:5% 5% 0;
+  }
+  p {
+  font-size: 1.3em;
+  }
+}
+
+/*___________________________________________ Mobile magic end ______________________________________________________*/
